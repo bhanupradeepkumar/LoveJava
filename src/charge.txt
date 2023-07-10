@@ -1,0 +1,43 @@
+9:05  ---79%
+10:34  ---75%  teams13 minutes whatsapp 9minutes 
+10:55  - idle 
+
+never ever second guess yourself decide just make a decision and
+dont second guess yourself cause oone way or or the other
+it is going to help you but if u stay in that dilemma that is ek toh
+sufeering and upar se the bear that has come in front of you will kill you
+so if  you re deciding whether to stay still or to run if theres a baalu
+if youre still or run he will eat you so you should never secong guess yourself
+make a strong decision and go with it one way or other you will learn
+if its a wrong one you will learn if its right you will learn
+
+spring tool suite
+
+create a java project
+
+oops project
+
+src new class
+
+SavingsAccountTest.java
+main and space bar
+sysout
+
+psvm in vscode
+so print
+
+savings account assignment set show withdraw deposit
+assignment
+
+A small assignment to everyone,
+Innovate a class out of your imagination, with some data and functions,
+It MUST NOT REPEAT in our batch of 18 members
+
+it has to be a unique ONE
+
+
+
+exception handling....
+
+
+
