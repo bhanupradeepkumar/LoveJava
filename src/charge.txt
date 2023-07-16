@@ -19,7 +19,14 @@ morning wakeup 85%
 12:06 52%
 12:34 48%
 12:39  47%
-
+01:03  44% some insta + hotspot \
+01:40 40% teams in phone 
+01:44 39% hotspot off 
+04:06 26%
+05:00 20% 
+05:56  14%  used whtsapp and chrome 
+call 10 min
+03 :21 31% hotspot on from 02:45
 
 never ever second guess yourself decide just make a decision and
 dont second guess yourself cause oone way or or the other
@@ -52,11 +59,358 @@ A small assignment to everyone,
 Innovate a class out of your imagination, with some data and functions,
 It MUST NOT REPEAT in our batch of 18 members
 
+the height of your success cant increase the height of personal development 
+to start hsqldb server 
+java -cp hsqldb.jar org.hsqldb.server.Server --database.0 file:mydb --dbname.0 xdb
+to start application 
+ java -jar hsqldb.jar
+
 it has to be a unique ONE
-
-
-
+intellij right click open module settings modules select dependencies click on + and add hsqlsb.jar file from lib and your good to go 
+driver name 
+org.hsqldb.jdbc.JDBCDriver
 exception handling....
 
 
+in goals type 
+clean compile test 
+mutli threading 
 
+perform car driven by short drive or long drive 
+define exceptions total 
+
+what if child class also has exception also 
+
+throws is not necessary for run time exception 
+child cant write a method where parent is not ready for exeption 	
+
+class FallException extends Exception {
+
+}
+class DrukenMaster{
+void drinkAndFight(){
+//capable for 5 techniques 
+}
+
+}
+
+class DrunkDisciple extends DrukenMaster{
+void drinkAndFight() throws FallenException{ 
+//caplable to use 10 techniques 
+}
+}
+
+
+explain if parent can extend fight exception then child can extend 
+fallen exception 
+knockkonckdown exception 
+
+
+//savingsAccount  fun() -3 exceptions 
+//FixedDepositException  -3 exceptions 
+
+
+
+
+
+
+
+
+persistent object --> object already in the data base 
+
+
+code marathon eclipse 
+how much portion will be there for first exam 
+day section 1, section 2 
+till day 3 
+
+2nd exam day 4,day 5 
+
+like deleteDepartmentTest
+like insertDepartmentTest ->naming conventions like this end or start 
+
+
+expection is assertion si falling right place 
+test cases how to write and rull
+@Test ->ANNOTATIONS 
+
+@tABLE
+@iD --ANNOTATIONS 
+is extra information in java
+
+
+tommorrow exam 
+main concern is 
+how to write proper clean code 
+with comments and write  with 
+proper naming conventions 
+so keep this in mind and write this responsibility 
+as a original project where others need to see your code like that 
+
+
+charcoal to diamond takes million years 
+
+pressure but take it as oppurtunity''
+
+Good scenario always take 
+
+
+synchronize void eat 
+
+
+try{
+
+wait(); //a notif() function will interupt this 
+
+
+}
+
+use finalize 
+
+
+
+
+
+///// to write a spring 
+
+needed 
+1. your pojo | business entity 
+2. 
+
+
+
+clean compile test bas 
+scope = prototype for different location of car object 
+<constructor when dealing with constructors 
+<property when dealing with methods 
+
+//ctrl + shift +M auto import 
+@Component
+|no need to write xml file 
+|
+used to auto detection of classes 
+
+@auto wired  
+|
+|
+use of annotations....
+it will intimate the parameter required to 
+its belonging classes and automatically 
+required object is created...
+
+automatically acquire what are the dependencies 
+
+
+java mcq test revision 
+
+
+
+exception handling 
+types checked and unchecked 
+compile time is checked 
+
+if it is extending from exception class then checked 
+runtime exception is unchecked
+
+drunken master and drunken slave example 
+
+cant be thrown by child if super 
+child can only throw extended exception
+
+throws compulsory in checked exception 
+checked Exception and for runtime we no need to add throws
+in run time no need 
+
+
+marker interfaces 
+is an empty interfaces guide virtual machine no mtds 
+no variables 
+
+
+final never be overridden 
+
+static only static method 
+
+non static can acccess static 
+
+this.
+super()
+super.
+this()
+
+
+string buffer is thread safe and synchronized
+
+and builder is not thread safe 
+
+
+
+generic programming 
+comparater comparable 
+methods in multi threading 
+list set 
+upto assertions 
+
+
+mvc -->model view controller 
+
+		controller--a servlet - dispatch servlet  
+		    |	request/response 
+model 				view 
+(data)
+database			static:html/css
+pojo				dynamic : jsp pages 
+repositories 
+
+
+dynamic convert to maven 
+configure change too maven project 
+add the dependencies in pom.xml
+add the dispatcher servlet in web.xml
+create spring-servlet.xml filr <--spring beans configured here 
+if web.xml is not there go to project 
+java ee tools generate deployment descriptor stub 
+
+internal resource view has location for jsp page 
+
+"/"
+
+spring booot is nothing but automatic configuratiosn 
+all were managed
+
+spring starter project 
+recomd to create all in packages 
+http://localhost:8080/burgers/greet
+controller @RestCOntroller
+@RequestMapping("/burgers")
+com.kpit.controllers
+entity
+repositiries 
+services
+
+xml json 
+java script object notation 
+@RestController 
+@RequestMapping
+package layer1 ->pizza
+layer2->pizza repositiries
+layer3 ->pizza services
+layer4 ->pizza controller
+
+netstat -a
+netstat -ano
+netstat -ano | "8080"
+taskkill /PID 16300 /F  -> to kill port 
+
+
+rest api 
+angular project 
+u have to combine angular with spring rest 
+
+@RequestMapping("/showSinglePizza{pid})
+
+
+
+java mcq test 2 
+exception handling 
+multi threading 
+design pattern 
+test 
+
+multi threading many methods 
+which thread catually wait to complete 
+thread should complete 
+join  
+when we ovveride it should be public or private method ist no.. 
+
+can we override static methods 
+only instance ans accessible ovverriden 
+
+java.lang 
+
+getClass()
+
+returns class object Class<T> in class getTypeName() determines type information in 
+string manner 
+getAnnotations() return Annotation[]
+
+getClass.getAnnotations
+
+can string base musical instrument extends from 
+another abstract class -> no we cant 
+
+assertions methods 
+
+Assertions.assertTrue
+Assertions.assertFalse verify whether it there  or not 
+
+how do we add unique objects in hashset 
+-->equals and hashcode 
+both will be overridden 
+
+class A
+{
+void fun(){}
+}
+class B extends A{
+@Override
+void fuun(){
+
+}
+}
+
+
+sometimes super class will be not available so use override
+
+
+cloning 
+object class there a method java1.8 docs java.lang 
+
+creates a and returns copy of object 
+
+clone()
+
+finalze()
+garbage collector 
+
+finally block  pupose 
+release the resource 
+
+
+1 million objects creating garbage collection process 
+error in java virtual machine can u handle the error ->no 
+storm in ocean cant be handled only in ship can be handled 
+
+
+only exceptions can be caught errors cant be caught 
+
+spring web application can be secure 
+register via github and google 
+we will see today like that 
+authentication which is secure and robust 
+
+
+
+code marathon....
+codecheff
+not dsa based but basic programming 
+
+good cheff java 
+case study one code will be produced 
+two bank accounts were given 
+and source account balnce should be display
+and target account balance
+withdraw deposit 
+wther matured or not 
+exception to be craeted 
+account where to create hasset of arraylist 
+3 easy questions will be given and 
+another code marathon will be on 5 such questions 
+crud repository in spring jpa 
+go to battery health java 
+arrays starting 2-3
+basic programming 1,2,3 
+gdturn ,top10, candivide, btry helath, jerrychase
+
+spring boot will be given in code marathon 
+create read update delete in marathon 
